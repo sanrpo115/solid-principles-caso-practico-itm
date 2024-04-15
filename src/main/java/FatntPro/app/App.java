@@ -78,6 +78,8 @@ public class App {
     	GeneralUserTasks generalUserTasks = new GeneralUserTasks();
     	HealthProfessionalUserTasks healthProfessionalUserTasks = new HealthProfessionalUserTasks();
     	
+    	System.out.println();
+		System.out.println(":::::: Liskov Substitution Principle ::::::");
     	System.out.println("	Llamando las tareas de usuario general:");
     	System.out.println("	Respuesta Consultar progreso: " + generalUserTasks.checkProgress("123456"));
     	System.out.println("	Respuesta Confirmar cita virtual: " + generalUserTasks.requestVirtualAppointment("123456", "Santiago Restrepo"));

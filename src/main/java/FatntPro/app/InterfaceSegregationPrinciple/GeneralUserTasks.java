@@ -19,8 +19,6 @@ public class GeneralUserTasks implements ICheckProgressTask, IRequestVirtualAppo
 
 	@Override
 	public Map<String, Map<String, Object>> checkProgress(String id) {
-		System.out.println();
-		System.out.println(":::::: Liskov Substitution Principle ::::::");
 		IspProgressService progressService = new IspProgressService();
 		return progressService.consultProgress(id);
 	}
