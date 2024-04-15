@@ -29,14 +29,13 @@ Entre los objetivos de tener en cuenta estos 5 principios a la hora de escribir 
 ##### 3. El diseño debe realizarse de manera que permita agregar nuevas funcionalidades como nuevas clases, manteniendo lo más posible el código existente sin cambios.
 
 ### Liskov Substitution Principle
-##### 1. Introducido por [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov), establece que "los objetos de un programa deben ser reemplazables con instancias de sus subtipos sin alterar la corrección de ese programa". .
+##### 1. Introducido por [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov), establece que "los objetos de un programa deben ser reemplazables con instancias de sus subtipos sin alterar la corrección de ese programa".
 ##### 2. Si un módulo de programa utiliza una clase base, entonces la referencia a la clase base se puede reemplazar con una clase derivada sin afectar la funcionalidad del módulo de programa.
 ##### 3. También podemos afirmar que los tipos derivados deben ser sustituibles por sus tipos base.
 
 ### Interface Segregation Principle:
 ##### 1. Muchas interfaces específicas del cliente son mejores que una interfaz de propósito general.
-
-###### 2. No debemos obligar a los clientes a implementar interfaces que no utilizan. En lugar de crear una interfaz grande, podemos dividirla en interfaces más pequeñas.
+##### 2. No debemos obligar a los clientes a implementar interfaces que no utilizan. En lugar de crear una interfaz grande, podemos dividirla en interfaces más pequeñas.
 
 ### Dependency Inversion Principle:
 ##### 1. Uno debería depender de abstracciones, no de concreciones.
