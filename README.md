@@ -12,10 +12,10 @@ Entre los objetivos de tener en cuenta estos 5 principios a la hora de escribir 
 ## Acronimo
 
 - S : Single Responsibility Principle ([SRP](https://github.com/sanrpo115/solid-principles-caso-practico-itm/tree/main/src/main/java/FatntPro/app/SingleResponsibilityPrinciple))
-- O : Open Closed Principle ([OCP]())
-- L : Liskov Substitution Principle ([LSP]())
-- I : Interface Segregation Principle: ([ISP]())
-- D : Dependency Inversion Principle: ([DIP]())
+- O : Open Closed Principle ([OCP](https://github.com/sanrpo115/solid-principles-caso-practico-itm/tree/main/src/main/java/FatntPro/app/OpenClosedPrinciple))
+- L : Liskov Substitution Principle ([LSP](https://github.com/sanrpo115/solid-principles-caso-practico-itm/tree/main/src/main/java/FatntPro/app/LiskovSubstitutionPrinciple))
+- I : Interface Segregation Principle: ([ISP](https://github.com/sanrpo115/solid-principles-caso-practico-itm/tree/main/src/main/java/FatntPro/app/InterfaceSegregationPrinciple))
+- D : Dependency Inversion Principle: ([DIP](https://github.com/sanrpo115/solid-principles-caso-practico-itm/tree/main/src/main/java/FatntPro/app/DependencyInversionPrinciple))
 
 
 ### Single Responsibility Principle:
